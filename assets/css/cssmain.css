@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap+Sharp:ital,wght@0,100..900;1,100..900&display=swap');
+@import url(menu.css);
+@import url(quienes-somos.css);
+:root {
+    --main-color: #425B9A;
+    --secondary-color: #4D8DBA;
+    --pink: #FF95A5;
+    --black: #000000;
+    --white: #ffffff;
+    --grey: #BFC9D1;
+}
+*,
+*::before,
+::after {
+    box-sizing: inherit;
+}
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Asap Sharp", sans-serif;
+}
+ul {
+    list-style: none;
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+}
+
+h2{
+    font-size: 30px;
+    font-weight: 800;
+}
+p{
+    font-size: 16px;
+}
