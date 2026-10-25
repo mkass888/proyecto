@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Asap+Sharp:ital,wght@0,100..900;1,100..900&display=swap');
 @import url(menu.css);
 @import url(quienes-somos.css);
+@import url(servicios.css);
+@import url(footer.css);
+
 :root {
     --main-color: #425B9A;
     --secondary-color: #4D8DBA;
@@ -33,4 +36,13 @@ h2{
 }
 p{
     font-size: 16px;
+}
+.center{
+    text-align: center;
+}
+.upper {
+    text-transform: uppercase;
+}
+.pink-text {
+color:var(--pink);
 }
