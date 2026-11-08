@@ -3,6 +3,7 @@
 @import url(quienes-somos.css);
 @import url(servicios.css);
 @import url(footer.css);
+@import url(contacto.css);
 
 :root {
     --main-color: #425B9A;
