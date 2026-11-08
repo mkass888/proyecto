@@ -1,0 +1,120 @@
+
+.box1 {
+    color: purple;
+    animation: box1;
+    animation-duration: 5s;
+    animation-iteration-count: 2;
+    position: relative;
+}
+
+@keyframes box1 {
+0%{
+    top: 0px;
+    left: 0px;
+}
+25%{
+    top: 0px;
+    left: 400px;
+}
+50% {
+    top: 0px;
+    left:700px;
+}
+75% {
+    top: 0px;
+    left: 950px;
+}
+100% {
+    top:0%;
+    left: 1200px;
+}
+}
+
+.box2 {
+    color: olivedrab;
+    animation: box2;
+    animation-duration: 5s;
+    animation-iteration-count: 2;
+    position: relative;
+}
+
+@keyframes box2 {
+    0% {
+        top: 0px;
+        left: 0px;
+    }
+    40% {
+        top: 0px;
+        left: 600px;
+    }
+    80% {
+        top: 0px;
+        left: 1100px;
+    }
+    90% {
+        top: 0px;
+        left: 1150px;
+    }
+}
+
+.box3 {
+    color: midnightblue;
+    animation: box3;
+    animation-duration: 5s;
+    animation-iteration-count: 2;
+    position: relative;
+}
+
+@keyframes box3 {
+    0% {
+        top: 0px;
+        left: 0px;
+    }
+    40% {
+        top: 0px;
+        left: 350px;
+    }
+    80% {
+        top: 0px;
+        left: 500px;
+    }
+    90% {
+        top: 0px;
+        left: 800px;
+    }
+}
+.box4 {
+    color: fuchsia;
+    animation: box4;
+    animation-duration: 5s;
+    animation-iteration-count: 2;
+    position: relative;
+}
+
+@keyframes box4 {
+    0% {
+        top: 0px;
+        left: 0px;
+    }
+    40% {
+        top: 0px;
+        left: 100px;
+    }
+    80% {
+        top: 0px;
+        left: 50px;
+    }
+    90% {
+        top: 0px;
+        left: 0px;
+    }
+}
+
+#box5 {
+    background-color:pink;
+    transition: 3s;
+    transition-timing-function: ease-in;
+}
+#box5:hover {
+    background-color: aquamarine;
+}
